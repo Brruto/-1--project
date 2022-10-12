@@ -1,0 +1,98 @@
+/* Reset all pages */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font-size for all pages */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  background-image: url(../images/background.jpg);
+  max-width: 100vh;
+  background-repeat: no-repeat;
+}
+
+.subscribe-box {
+  background-color: #ebebeb;
+  padding: 6rem 4rem;
+  max-width: 40rem;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.subscribe-box h1 {
+  font-size: 3.6rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.subscribe-box span {
+  color: #555;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+}
+
+.subscribe-box hr {
+  width: 7rem;
+  color: #333;
+  margin: 2.5rem auto;
+}
+
+.subscribe-box input {
+  width: 100%;
+  padding: 2rem;
+  border: 1px solid #333;
+  border-radius: 5px;
+  outline-color: #ebebeb;
+  margin-bottom: 2.5rem;
+}
+
+.subscribe-box button {
+  width: 100%;
+  padding: 1.5rem 3rem;
+  border: 0;
+  border-radius: 5px;
+  background: #651a1a;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.subscribe-box button:hover {
+  background-color: #ce3f3f;
+  cursor: pointer;
+}
+
+.go-back-btn:link,
+.go-back-btn:visited {
+  display: inline-block;
+  background-color: #651a1a;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  transition: all 0.3s;
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+}
+
+.go-back-btn:hover,
+.go-back-btn:active {
+  background-color: #b52626;
+}
